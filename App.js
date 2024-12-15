@@ -1,20 +1,7 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
-
+import Landscape from "./screens/Landscape";
+import Portrait from "./screens/Portrait";
+import ChooseOrientation from "./screens/ChooseOrientation";
+import OrientationAdjustWithScreen from "./screens/OrientationAdjustWithScreen";
 export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
-  );
+  return <OrientationAdjustWithScreen />;
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
