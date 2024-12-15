@@ -1,6 +1,6 @@
-# Native Stuff 07
+# Native Stuff 08
 
-Screen Orientation
+Screen orientation adjusts with device.
 
 ## install
 
